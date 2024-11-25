@@ -1,6 +1,6 @@
 # jazelle-wii
 
-This Wii homebrew executes ARM code on the Starlet, making use of [https://github.com/mkwcat/saoirse/blob/master/channel/Main/IOSBoot.cpp#L86](Palapeli's exploit), which will set the CPU in Jazelle mode, and jump to the JVM bytecode specified in [bytecode/bytecode](bytecode/bytecode). In the included example, it is: 
+This Wii homebrew executes ARM code on the Starlet, making use of [Palapeli's exploit](https://github.com/mkwcat/saoirse/blob/master/channel/Main/IOSBoot.cpp#L86), which will set the CPU in Jazelle mode, and jump to the JVM bytecode specified in [bytecode/bytecode](bytecode/bytecode). In the included example, it is: 
 
 ```
 bipush 19
