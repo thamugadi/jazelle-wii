@@ -42,9 +42,9 @@ void exec_jazelle() {
 
   printf("Performing Palapeli's /dev/sha exploit\n");
   #ifdef THUMB
-  run_arm((u32*)arm_code, sizeof(arm_code), true);
+  run_arm((u32*)arm_code_mem2, sizeof(arm_code), true);
   #else
-  run_arm((u32*)arm_code, sizeof(arm_code), false);
+  run_arm((u32*)arm_code_mem2, sizeof(arm_code), false);
   #endif
   printf("Starlet is running in Jazelle mode to execute the specified JVM bytecode\n");
 
