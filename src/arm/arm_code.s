@@ -2,13 +2,6 @@
 .arch armv7-a
 
 .equ STACK, 0x10000000
-/*
-mov r0, #4
-lsl r0, r0, #16
-ldr r1, =0xaaaaaaaa
-str r1, [r0]
-bx lr
-*/
 
 jmp_mem2:
 mov r0, #0x12
