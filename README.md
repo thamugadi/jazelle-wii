@@ -11,7 +11,7 @@ ireturn
 
 After the execution, it prints the state of the stack, and the 8 first local variables.
 
-**NOTE: A large number of instructions is not natively supported by Jazelle and must be handled by predefined ARM code. As except ``ireturn`` none has been implemented here, it will fail to run most programs. Placeholders for the handlers are available in [src/arm/instr\_handlers.s](src/arm/instr_handlers.s). This repositorty can then serve as a basis for a broader implementation.**
+**NOTE: A large number of instructions is not natively supported by Jazelle and must be handled by predefined ARM code. As except ``ireturn`` none has been implemented here, it will fail to run most programs. Placeholders for the handlers are available in [src/arm/instr\_handlers.s](src/arm/instr_handlers.s). This repository can then serve as a basis for a broader implementation.**
 
 # References
 - https://github.com/mkwcat/saoirse/blob/master/channel/Main/IOSBoot.cpp (IOSBoot::Entry) (Palapeli's exploit)
