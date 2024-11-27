@@ -14,7 +14,7 @@ After the execution, it prints the state of the stack, and the 8 first local var
 **NOTE**: A large number of instructions is not natively supported by Jazelle and must be handled by predefined ARM code. As except ``ireturn`` none has been implemented here, it will fail to run most programs. Placeholders for the handlers are available in [src/arm/instr\_handlers.s](src/arm/instr_handlers.s)
 
 # References
-
+- https://github.com/mkwcat/saoirse/blob/master/channel/Main/IOSBoot.cpp (IOSBoot::Entry) (Palapeli's exploit)
 - https://mariokartwii.com/showthread.php?tid=1994
 - https://hackspire.org/index.php/Jazelle
 - https://github.com/SonoSooS/libjz
